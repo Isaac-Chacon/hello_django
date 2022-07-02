@@ -9,7 +9,7 @@ def hello(request):
 
 def user_data_processing(request, name, age, nationality):
     return HttpResponse(
-        f'<h1>Dados do Usuário</h1><h2>Nome: {name}</h2><h2>Idade: {age} anos</h2><h2> Nacionalidade: {nationality}')
+        f'<h1>Dados do Usuário</h1><h2>Nome: {name}</h2><h2>Idade: {age} anos</h2><h2>Nacionalidade: {nationality}</h2>')
 
 
 def sum(request, number1, number2):
